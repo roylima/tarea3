@@ -1,0 +1,69 @@
+.contenedor
+{
+    background-color: orange;
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: "header   header   header"
+                         "nav      nav      nav "
+                         "section1  section2  ads"
+                         "foot     foot     foot"
+                         "facebook     rrss      youtube";
+}
+.contenedor .header
+{
+    background-color: yellow;
+    grid-column: header/header;
+
+}
+.contenedor .nav
+{
+    background-color: brown;
+    grid-column: nav/nav;
+}
+.contenedor .section1
+{
+    background-color: greenyellow;
+    grid-column: section1;
+}
+.contenedor .section2
+{
+    background-color: aqua;
+    grid-column: section2;
+}
+.contenedor .ads
+{
+    background-color: red;
+    grid-column: ads;
+}
+.contenedor .hijodepublicidad
+{
+    background-color: green;
+    grid-column: publicidadhijo;
+    padding: 10px;
+
+}
+.contenedor .foot
+{
+    background-color: blue;
+    grid-column: foot;
+}
+.contenedor .facebook
+{
+    background-color: blue;
+    grid-column: facebook;
+}
+.contenedor .rrss
+{
+    background-color: seagreen;
+    grid-column: rrss;
+}
+.contenedor .youtube
+{
+    background-color: red;
+    grid-column: youtube;
+}
